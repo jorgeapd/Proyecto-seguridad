@@ -6,6 +6,7 @@ import { getUserAddress } from './address/get-user-address';
 
 import { placeOrder } from './order/place-order';
 import {getOrderById} from './order/get-order-by-id';
+import { getPaginatedOrders } from './order/get-paginated-orders';
 import { getOrdersByUser } from './order/get-orders-by-user'
 
 
@@ -19,7 +20,10 @@ import { getPaginatedProductsWithImages } from './product/product-pagination';
 import { getProductBySlug } from './product/get-product-by-slug';
 import { getStockBySlug } from './product/get-stock-by-slug';
 
-export { getPaginatedProductsWithImages, getProductBySlug, getStockBySlug, login, logout, registerUser, getCountries, setUserAddress, deleteUserAddress, getUserAddress, placeOrder, getOrderById, getOrdersByUser}
+
+import { getPaginatedUsers } from './user/get-paginated-users';
+
+export { getPaginatedProductsWithImages, getProductBySlug, getStockBySlug, login, logout, registerUser, getCountries, setUserAddress, deleteUserAddress, getUserAddress, placeOrder, getOrderById, getOrdersByUser, getPaginatedOrders, getPaginatedUsers}
 
 
 
