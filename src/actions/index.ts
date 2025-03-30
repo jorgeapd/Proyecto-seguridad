@@ -21,9 +21,10 @@ import { getProductBySlug } from './product/get-product-by-slug';
 import { getStockBySlug } from './product/get-stock-by-slug';
 
 
+import { changeUserRole } from './user/change-user-role';
 import { getPaginatedUsers } from './user/get-paginated-users';
 
-export { getPaginatedProductsWithImages, getProductBySlug, getStockBySlug, login, logout, registerUser, getCountries, setUserAddress, deleteUserAddress, getUserAddress, placeOrder, getOrderById, getOrdersByUser, getPaginatedOrders, getPaginatedUsers}
+export { getPaginatedProductsWithImages, getProductBySlug, getStockBySlug, login, logout, registerUser, getCountries, setUserAddress, deleteUserAddress, getUserAddress, placeOrder, getOrderById, getOrdersByUser, getPaginatedOrders, getPaginatedUsers, changeUserRole}
 
 
 
