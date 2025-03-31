@@ -23,8 +23,14 @@ export interface CartProduct {
 }
 
 
+export interface ProductImage {
+    id: number;
+    url: string;
+    productId: string;
+}
 
 
-export type Category = 'vestuario'|'chalecos'|'baston'|'accesories'
+
+type Category = 'vestuario'|'chalecos'|'baston'|'accesories'
 export type Size = 'S'|'M'|'L'|'XL'| 'None';
 export type Type = 'shirts'|'pants'|'jackets'|'boots'| 'klevar'| 'helmet'| 'gloves'| 'tacticalbag'| 'protections'| 'belts'| 'flashlight'| 'laser'| 'pens'| 'handcuff'| 'guardbaton'| 'radio';
